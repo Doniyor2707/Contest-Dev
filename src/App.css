@@ -1,0 +1,46 @@
+.App {
+    max-width: 1400px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.global_body {
+    margin: 20px 0;
+}
+
+.active { 
+    width: 100%;
+    background-color: #aec0bc;
+    color: #218c74;
+}
+
+
+.navbar_menu {
+    border-radius: 10px;
+}
+
+
+.sidebar_link {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-weight: 600;
+}
+
+.sidebar_link:hover {
+    color: #218c74;
+}
+
+.site_bar_list {
+    width: 100%;
+    max-height: 46px;
+    min-height: 46px;
+    align-items: center;
+    transition: box-shadow .2s, letter-spacing .3s ease-in-out, color .4s;
+    display: flex;
+}
+
+.main_section {
+    margin-left: 15px;
+}
